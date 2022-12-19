@@ -1,0 +1,105 @@
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 0;
+}
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0;
+}
+
+.searchcenter {
+	text-align: center;
+}
+
+.searchcenter0 {
+	text-align: center;
+	font-size: 14px;
+}
+
+#searchdescript2 {
+	margin:10px auto;
+	line-height: 25px;
+	color: #808080;
+	font-family: Tahoma, dotum, arial, verdana;
+	font-size: 25px;
+	A{font-size:12pt;color:#ffffff;text-decoration: none;font-weight:bold;}
+	A:link{font-size:12pt;color:#ffffff;text-decoration: none;font-weight:bold;}
+	A:visited{font-size:12pt;color:#ffffff;text-decoration: none;font-weight:bold;}
+	A:hover{font-size:12pt;color:#ffffff;text-decoration:underline;font-weight:bold;}
+}
+
+.searchbox {
+	width:300px;
+	height:70px;
+	font-size: 40px;
+}
+
+.searchbut {
+	height:70px;
+	font-size:40px;
+}
+
+.searchcenter-1 {
+	text-align: center;
+	font-size: 16px;
+}
+
+.searchcenter-2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+.searchcenter-3 {
+	font-size: 25px;
+}
+
+.searchcenter-0 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.searchcenter-4 {
+	font-size: 17px;
+}
+
+.searchcenter-5 {
+	font-size: 35px;
+}
+
+.YN{
+display:none;
+}
+
+@media screen and (max-width:1000px){
+#PC{display: none;}
+}
+@media screen and (max-width:1000px){
+#sam2{display: none;}
+}
+@media screen and (min-width:1000px){
+#MO{display: none;}
+}
+.pdftop {font-size: 25px;font-weight: bold;}
+.pdftop A:link{font-size: 25px;font-weight: bold;color: #000000;text-decoration:none;}
+.pdftop A:visited{font-size: 25px;font-weight: bold;color: #000000;text-decoration:none;}
+
+.listinglink {font-size:18pt;color:#000000;text-decoration:none}
+.listinglink A{font-size:18pt;color:#4272db;text-decoration: underline;font-weight:bold;}
+.listinglink A:link{font-size:18pt;color:#4272db;text-decoration: none;font-weight:bold;}
+.listinglink A:visited{font-size:18pt;color:#4272db;text-decoration: underline;font-weight:bold;}
+.listinglink A:hover{font-size:18pt;color:#4272db;text-decoration:underline;font-weight:bold;}
+
+.tb_list {font-size:18pt;color:#2E3192;text-decoration: none;font-weight:bold;}
+.tb_list A{font-size:18pt;color:#0066FF;text-decoration: underline;font-weight:bold;}
+.tb_list A:link{font-size:18pt;color:#0066FF;text-decoration: underline;font-weight:bold;}
+.tb_list A:visited{font-size:18pt;color:#0066FF;text-decoration: underline;font-weight:bold;}
+.tb_list A:hover{font-size:18pt;color:#0066FF;text-decoration:underline;font-weight:bold;}
+
+}

@@ -1,0 +1,93 @@
+@import 'common.css';
+
+/* Aleš
+ */
+div#content {
+  position: relative;
+  min-height: calc(100vh - 325px);
+  padding-top: 5px;
+  margin-top: 75px;
+  margin-bottom: 42px;
+  display: grid;
+  grid-template-columns: repeat(5, 500px);
+}
+#information {
+  grid-column: 1 / span 2;
+  margin-left: 25px;
+}
+
+#allSideBoxes {
+  line-height: 1.5;
+  padding: 10px;
+  height: 100%;
+  background-color: white;
+  width: 260px;
+  border-left: 1px solid #0077c8;
+  transition: 0.5s;
+  grid-column: 5;
+}
+
+.side_box {
+  max-width: 15ex;
+  float: right;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  box-shadow: 0 1px 5px #aaa;
+  border-radius: 3px;
+}
+
+.screenshot {
+  border: 1px solid #f5f5f5;
+  padding: 10px;
+  border-radius: 3px;
+}
+code {
+  background-color: #f5f5f5;
+  border: 1px dashed #f1f1f1;
+}
+#triangles {
+  right: 10px !important;
+  bottom: 50px !important;
+  position: fixed !important;
+}
+.opensource {
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  box-shadow: 0 1px 5px #aaa;
+  border-radius: 3px;
+}
+/* End Aleš */
+
+#hideSideBoxes {
+  display: none;
+}
+
+.sideBox {
+  font-size: inherit;
+}
+
+.sourceListItem {
+  margin-top: 50px;
+}
+
+.logoRow .logo {
+  display: flex;
+  gap: 30px;
+}
+
+.logoRow .logo img {
+  width: auto;
+  height: 100px;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 30em) {
+}
+@media only screen and (max-width: 60em) {
+  #information {
+    width: 100%;
+  }
+}
